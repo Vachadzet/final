@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FurniStyle - თანამედროვე ავეჯი</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+  
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">Furni<span>Style</span></a>
+      
+      <nav class="nav-menu">
+        <a href="#hero" class="nav-link">მთავარი</a>
+        <a href="#services" class="nav-link">სერვისები</a>
+        <a href="#products" class="nav-link">პროდუქცია</a>
+        <a href="#contact" class="nav-link">კონტაქტი</a>
+      </nav>
+
+      <button class="burger" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    
+    <section id="hero" class="hero">
+      <div class="container hero-content">
+        <h1 class="animate__animated animate__fadeInDown">შექმენი შენი ოცნების ინტერიერი</h1>
+        <p>მაღალი ხარისხის ავეჯი და დიზაინერული გადაწყვეტილებები თქვენი სახლისთვის.</p>
+        <a href="#products" class="btn">პროდუქციის ნახვა</a>
+      </div>
+    </section>
+
+    
+    <section id="services" class="services">
+      <div class="container">
+        <h2>ჩვენი სერვისები</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>უფასო მიწოდება</h3>
+            <p>სწრაფი და უსაფრთხო ტრანსპორტირება მთელი ქვეყნის მასშტაბით.</p>
+          </article>
+          <article class="service-card">
+            <h3>3D დიზაინი</h3>
+            <p>ინდივიდუალური დაგეგმარება თქვენი ოთახის ზომების მიხედვით.</p>
+          </article>
+          <article class="service-card">
+            <h3>24/7 მხარდაჭერა</h3>
+            <p>ჩვენი გუნდი მზადაა გიპასუხოთ ნებისმიერ შეკითხვაზე.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="products" class="products">
+      <div class="container">
+        <h2>პოპულარული პროდუქტები</h2>
+        <div id="product-list" class="products-grid">
+          
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>დაგვიკავშირდით</h2>
+        <form class="contact-form" onsubmit="event.preventDefault();">
+          <input type="text" placeholder="თქვენი სახელი" required>
+          <input type="email" placeholder="ელ-ფოსტა" required>
+          <textarea placeholder="შეტყობინება" rows="4" required></textarea>
+          <button type="submit" class="btn">გაგზავნა</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 FurniStyle. ყველა უფლება დაცულია.</p>
+    </div>
+  </footer>
+
+  
+  <div id="cookie-banner" class="cookie-banner">
+    <p>ჩვენ ვიყენებთ Cookie ფაილებს მომსახურების გაუმჯობესების მიზნით.</p>
+    <button id="accept-cookie" class="btn-sm">თანხმობა</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
